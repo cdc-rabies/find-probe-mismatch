@@ -1,0 +1,24 @@
+Exclude only perfect match
+--------------------------------------------------------------------------------------------------------------------------------
+|                probe  |        perfect match  |        1 mismatch |    2 mismatch |    3 mismatch             |     Other     |
+|acagatgggaagaaacctggt|                 0       |       0           |           0  |            5               |       182     |
+|tagatggaaagaaaccagggataac|             4       |       1           |           3  |            0               |       179     |
+|tgtgtgtcccgaagattgggtt|                3       |       1           |           0  |            3               |       176     |
+|tttacgtggacgcatggtcttgt|               0       |       0           |           0  |            0               |       180     |
+|agagctacgggattctcattgct|               23      |       5           |           1  |            1               |       150     |
+|acgtactgatgtagaagggaattggg|            0       |       0           |           0  |            0               |       157     |
+|acgtactgatgtagaagggaactggg|            0       |       0           |           0  |            0               |       157     |
+|acgtactgatgtagaagggaattggg|            0       |       0           |           0  |            0               |       157     |
+---------------------------------------------------------------------------------------------------------------------------------
+Exclude perfect match and 1 mismatch
+---------------------------------------------------------------------------------------------------------------------------------
+|        probe    |              perfect match  |        1 mismatch |    2 mismatch |    3 mismatch             |     Other     |
+|acagatgggaagaaacctggt|                 0       |       0           |           0  |            5               |       182     |
+|tagatggaaagaaaccagggataac|             4       |       1           |           3  |            0               |       179     |
+|tgtgtgtcccgaagattgggtt|                3       |       1           |           0  |            3               |       175     |
+|tttacgtggacgcatggtcttgt|               0       |       0           |           0  |            0               |       178     |
+|agagctacgggattctcattgct|               23      |       5           |           1  |            1               |       148     |
+|acgtactgatgtagaagggaattggg|            0       |       0           |           0  |            0               |       150     |
+|acgtactgatgtagaagggaactggg|            0       |       0           |           0  |            0               |       150     |
+|acgtactgatgtagaagggaattggg|            0       |       0           |           0  |            0               |       150     |
+---------------------------------------------------------------------------------------------------------------------------------
